@@ -20,5 +20,5 @@ $asunto = 'Mensaje de PRECOMPC';
 
 mail($para, $asunto, utf8_decode($message), $header);
 
-header("https://destinofilms.vercel.app/enviar.php");
+header("Location:index");
 ?>
