@@ -20,5 +20,5 @@ $asunto = 'Mensaje de PRECOMPC';
 
 mail($para, $asunto, utf8_decode($message), $header);
 
-header("Location:index.html");
+header("Location:C:\Users\HP\Desktop\neu\cinema-world\index.html");
 ?>
